@@ -1,0 +1,4 @@
+[[package]]
+name = "osc_midi_bridge"
+version = "0.1.0"
+
