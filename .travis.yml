@@ -1,4 +1,10 @@
 language: rust
+sudo: false
+dist: trusty
+addons:
+  apt:
+    packages:
+      - libasound2-dev
 rust:
   - stable
   - beta
