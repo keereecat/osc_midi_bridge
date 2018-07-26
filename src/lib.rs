@@ -12,7 +12,7 @@ pub fn run() -> Result<(), Box<Error>> {
     println!("Initializing Lua... ");
     let lua = Lua::new();
 
-    match lua.eval::<()>(
+    lua.eval::<()>(
         r#"
         print("Lua initialized.")
         "#,
